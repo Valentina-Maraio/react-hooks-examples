@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.state {
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+.reducer {
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: orange;
+}
+.effect{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightgreen;
+}
+.ref{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightpink;
+}
+.layout{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+.imperative{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: orange;
+}
+.context{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightgreen;
+}
+.memo{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: lightpink;
+}
+.callback{
+  margin-top: 30px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 30px;
+  background-color: orange;
+}
