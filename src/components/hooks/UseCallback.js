@@ -17,6 +17,12 @@ const UseCallback = () => {
         <UseCallbackChild returnComment={returnComment} />
         <Button
         onClick={() => {
+            setData(data);
+        }}
+        > {" "} Disabled
+        </Button>
+        <Button
+        onClick={() => {
             setToggle(!toggle);
         }}
         > {" "} Click
